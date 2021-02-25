@@ -55,7 +55,15 @@ Xhosa (xh_ZA),
 Galician (gl_ES),
 Slovene (sl_SI)
 
+## Installation
+
+Navigate to the folder Language-Translation and run the command below:
+
+    >>> pip install -r requirements.pip
+
 ## Useage
     >>> from translator import Translator
     >>> obj = Translator()
     >>> output_sentence = obj.translate("Hello, I am good", "english", "french")
+
+If you find any issues/bugs with the code. I am available on email at venkyr91193@gmail.com
