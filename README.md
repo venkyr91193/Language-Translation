@@ -54,3 +54,8 @@ Urdu (ur_PK),
 Xhosa (xh_ZA),
 Galician (gl_ES),
 Slovene (sl_SI)
+
+## Useage
+    >>> from translator import Translator
+    >>> obj = Translator()
+    >>> output_sentence = obj.translate("Hello, I am good", "english", "french")
